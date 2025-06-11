@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Mind map backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server",
+    "nodemon": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Rudra-Prasad-001/collaborative-mind-map.git"
+  },
+  "keywords": [
+    "MERN",
+    "socket.io"
+  ],
+  "author": "Rudra Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rudra-Prasad-001/collaborative-mind-map/issues"
+  },
+  "homepage": "https://github.com/Rudra-Prasad-001/collaborative-mind-map#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
