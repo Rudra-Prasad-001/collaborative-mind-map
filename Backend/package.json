@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Rudra-Prasad-001/collaborative-mind-map#readme",
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "cookie": "^1.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",

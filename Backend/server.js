@@ -14,6 +14,8 @@ app.use(express.json())
 
 app.use('/api', require('./routes/api/register'))
 
+app.use('/api', require('./routes/api/login'))
+
 app.get('/', (req,res) => {
     res.send("hey")
 })
