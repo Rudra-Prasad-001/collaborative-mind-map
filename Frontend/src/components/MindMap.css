@@ -1,0 +1,130 @@
+
+.mindmap-container {
+    height: 100vh;
+    position: relative;
+}
+
+.mindmap-controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+}
+
+.add-node-btn {
+    padding: 8px 16px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.add-node-btn:hover {
+    background-color: #2563eb;
+}
+
+.add-node-btn:active {
+    background-color: #1d4ed8;
+}
+
+.node-counter {
+    padding: 8px 12px;
+    background-color: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #6b7280;
+}
+
+/* ADD THESE: Editing Sidebar Styles */
+.edit-sidebar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 250px;
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 20;
+}
+
+.edit-sidebar h3 {
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #374151;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.edit-form label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 4px;
+}
+
+.edit-form input {
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.edit-form input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.edit-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.save-btn {
+    flex: 1;
+    padding: 8px 16px;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.save-btn:hover {
+    background-color: #059669;
+}
+
+.cancel-btn {
+    flex: 1;
+    padding: 8px 16px;
+    background-color: #6b7280;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cancel-btn:hover {
+    background-color: #4b5563;
+}
+
+.edit-form small {
+    font-size: 10px;
+    color: #9ca3af;
+    text-align: center;
+}
